@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/Masterminds/semver/v3 v3.1.1
 	github.com/Microsoft/go-winio v0.5.2
-	github.com/compose-spec/compose-go v1.4.0
+	github.com/compose-spec/compose-go v1.8.1
 	github.com/containerd/cgroups v1.0.4
 	github.com/containerd/console v1.0.3
 	github.com/containerd/containerd v1.6.8 // replaced
@@ -24,7 +24,7 @@ require (
 	github.com/docker/cli v20.10.17+incompatible
 	github.com/docker/docker v20.10.17+incompatible
 	github.com/docker/go-connections v0.4.0
-	github.com/docker/go-units v0.4.0
+	github.com/docker/go-units v0.5.0
 	github.com/fahedouch/go-logrotate v0.1.2
 	github.com/fatih/color v1.13.0
 	github.com/hashicorp/go-multierror v1.1.1
@@ -48,12 +48,12 @@ require (
 	github.com/vishvananda/netlink v1.2.1-beta.2
 	github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
-	golang.org/x/net v0.0.0-20220615171555-694bf12d69de
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
+	golang.org/x/net v0.0.0-20220906165146-f3363e06e74c
+	golang.org/x/sync v0.1.0
 	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab
 	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467
 	gopkg.in/yaml.v3 v3.0.1
-	gotest.tools/v3 v3.3.0
+	gotest.tools/v3 v3.4.0
 )
 
 require (
@@ -72,7 +72,7 @@ require (
 	github.com/containers/ocicrypt v1.1.5 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/crackcomm/go-gitignore v0.0.0-20170627025303-887ab5e44cc3 // indirect
-	github.com/distribution/distribution/v3 v3.0.0-20220725133111-4bf3547399eb // indirect
+	github.com/distribution/distribution/v3 v3.0.0-20221103125252-ebfa2a0ac0a9 // indirect
 	github.com/djherbis/times v1.5.0 // indirect
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
@@ -83,7 +83,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.8 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
