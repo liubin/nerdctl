@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/Masterminds/semver/v3 v3.1.1
 	github.com/Microsoft/go-winio v0.5.2
-	github.com/compose-spec/compose-go v1.4.0
+	github.com/compose-spec/compose-go v1.11.0
 	github.com/containerd/cgroups v1.0.4
 	github.com/containerd/console v1.0.3
 	github.com/containerd/containerd v1.6.8 // replaced
@@ -24,7 +24,7 @@ require (
 	github.com/docker/cli v20.10.17+incompatible
 	github.com/docker/docker v20.10.17+incompatible
 	github.com/docker/go-connections v0.4.0
-	github.com/docker/go-units v0.4.0
+	github.com/docker/go-units v0.5.0
 	github.com/fahedouch/go-logrotate v0.1.2
 	github.com/fatih/color v1.13.0
 	github.com/hashicorp/go-multierror v1.1.1
@@ -42,18 +42,18 @@ require (
 	github.com/rootless-containers/bypass4netns v0.2.2
 	github.com/rootless-containers/rootlesskit v1.0.1
 	github.com/sirupsen/logrus v1.9.0
-	github.com/spf13/cobra v1.5.0
+	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/tidwall/gjson v1.14.3
 	github.com/vishvananda/netlink v1.2.1-beta.2
 	github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
-	golang.org/x/net v0.0.0-20220615171555-694bf12d69de
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
-	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab
-	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467
+	golang.org/x/net v0.4.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.3.0
+	golang.org/x/term v0.3.0
 	gopkg.in/yaml.v3 v3.0.1
-	gotest.tools/v3 v3.3.0
+	gotest.tools/v3 v3.4.0
 )
 
 require (
@@ -72,7 +72,7 @@ require (
 	github.com/containers/ocicrypt v1.1.5 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/crackcomm/go-gitignore v0.0.0-20170627025303-887ab5e44cc3 // indirect
-	github.com/distribution/distribution/v3 v3.0.0-20220725133111-4bf3547399eb // indirect
+	github.com/distribution/distribution/v3 v3.0.0-20230214150026-36d8c594d7aa // indirect
 	github.com/djherbis/times v1.5.0 // indirect
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
@@ -83,13 +83,13 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.8 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/ipfs/bbloom v0.0.4 // indirect
 	github.com/ipfs/go-block-format v0.0.3 // indirect
 	github.com/ipfs/go-blockservice v0.3.0 // indirect
@@ -169,7 +169,7 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
-	golang.org/x/text v0.3.7
+	golang.org/x/text v0.5.0
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/genproto v0.0.0-20220426171045-31bebdecfb46 // indirect
 	google.golang.org/grpc v1.47.0 // indirect
